@@ -1,0 +1,2 @@
+database: ./controller/controller.cpp ./view/frontside.cpp ./controller/controller.h ./view/frontside.h ./model/Table.h
+		g++ -std=c++20 ./controller/controller.cpp ./view/frontside.cpp ./controller/controller.h ./view/frontside.h ./model/Table.h -o test
